@@ -45,6 +45,7 @@
 25. Data is all you need: Finetuning LLMs for Chip Design via an Automated design-data augmentation framework
 26. SynthAI: A Multi Agent Generative AI Framework for Automated Modular HLS Design Generation
 27. Evaluating LLMs for Hardware Design and Test
+28. LLM-Aided Testbench Generation and Bug Detection for Finite-State Machines
 
 
 
@@ -68,6 +69,7 @@
 14. Self-HWDebug: Automation of LLM Self-Instructing for Hardware Security Verification
 15. Data is all you need: Finetuning LLMs for Chip Design via an Automated design-data augmentation framework
 16. LLMs for Hardware Security: Boon or Bane?
+17. LLM-Aided Testbench Generation and Bug Detection for Finite-State Machines
 
 
 ## Large Circuit Models (LCMs)
@@ -79,8 +81,12 @@
 - **LLMs are capable of functioning as agents, emulating human thought and action.**
 - **The LLM agent can perform task planning and execute tools to generate or refine design outcomes.**
 - **Based on the evaluation of the current design, the LLM agent utilizes these evaluation metrics as feedback to decide whether to refine the current result or to terminate the chip design process.**
-1. ChatPattern: Layout Pattern Customization via Natural Language
-2. Large Language Model (LLM) for Standard Cell Layout Design Optimization
+- **In ChipNeMo, agents refer to the use of an LLM to choose a sequence of actions to take, where an LLM is acting as a reasoning engine to drive outside tools.**
+1. ChipNeMo: Domain-Adapted LLMs for Chip Design
+2. ChatEDA: A Large Language Model Powered Autonomous Agent for EDA
+3. ChatPattern: Layout Pattern Customization via Natural Language
+4. Large Language Model (LLM) for Standard Cell Layout Design Optimization
+5. LayoutCopilot: An LLM-powered Multi-agent Collaborative Framework for Interactive Analog Layout Design
 
 <!-- ## Feature Extraction -->
 
